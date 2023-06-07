@@ -1,0 +1,449 @@
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 1184px */
+
+@media screen and (max-width: 1184px) {
+    * {
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .container {
+        background-color: transparent;
+        padding: 0px;
+        overflow: auto;
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+    }
+    main {
+        padding: 5px;
+        margin: 0px;
+        background-color: #A685E2;
+    }
+    .content {
+        margin: 5px;
+        background-color: #FFABE1;
+        border-radius: 15px;
+        padding: 2px;
+    }
+    /* Navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFE6E6;
+        width: 100%;
+        height: auto;
+        padding: 10px 30px;
+    }
+    .navbar ul li a {
+        color: aliceblue;
+        font: bold;
+        background-color: #FFABE1;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    img {
+        width: 120px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-left: -10px;
+        border-radius: 10px;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 6px 8px;
+        margin-top: 7px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .submenu {
+        background-color: transparent;
+        width: 130px;
+        height: auto;
+        padding: 5px;
+    }
+    /* Daftar Menu */
+    .kotak-menu {
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .menu {
+        text-align: center;
+        line-height: 2;
+        width: 50%;
+        height: auto;
+        margin-inline: 5px;
+    }
+    .menu h1 {
+        font-size: xx-large;
+    }
+    .Daftar-menu {
+        text-align: center;
+        background-color: #FFE6E6;
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        padding-bottom: 25px;
+        margin: 5px;
+    }
+    .Daftar-menu ul {
+        list-style: none;
+    }
+    .Daftar-menu a {
+        color: aliceblue;
+    }
+    /* Kotak Pesanan */
+    .kotak-pesanan {
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+    }
+    .P1 {
+        background-color: #FFABE1;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        width: auto;
+        height: auto;
+        line-height: 1.5;
+        padding: 5px;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-inline: 10px;
+        cursor: pointer;
+    }
+    .P1 a {
+        background-color: transparent;
+        padding: 5px;
+        width: 100%;
+        padding-inline: 50px;
+    }
+    .Daftar-pesanan {
+        text-align: center;
+        background-color: #FFE6E6;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin-inline: 5px;
+    }
+    .Daftar-pesanan h3 {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+    .Daftar-pesanan img {
+        width: 55%;
+        height: auto;
+    }
+    figcaption {
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 3px;
+    }
+    /* Aside */
+    aside {
+        background-color: #FFE6E6;
+        padding: 5px;
+        text-align: justify;
+        font-weight: 100;
+        width: auto;
+        height: auto;
+        font-size: small;
+        border-radius: 15px;
+    }
+    .aside {
+        align-items: center;
+        background-color: transparent;
+        width: 40%;
+        height: auto;
+        padding: 5px 5px;
+    }
+    .Profile header {
+        text-align: center;
+        font-size: x-large;
+    }
+    figure img {
+        width: 40%;
+        height: auto;
+    }
+    aside section {
+        line-height: 2;
+        font-size: xx-small;
+    }
+    .halal {
+        text-align: center;
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .halal img {
+        width: 70%;
+        height: auto;
+        border-radius: 10px;
+    }
+    /* footer */
+    footer {
+        padding: 20px;
+        color: white;
+        background-color: #6155A6;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+    }
+}
+
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 541px */
+
+@media screen and (max-width: 721px) {
+    .content {
+        margin: 0px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    /* Navbar */
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar ul li a {
+        padding: 5px 10px;
+    }
+    /* Daftar Menu */
+    .menu h2 {
+        font-size: large;
+    }
+    .Daftar-menu {
+        padding-bottom: 15px;
+    }
+    .Daftar-menu h1 {
+        font-size: larger;
+    }
+    .kotak-menu h3 {
+        font-size: small;
+    }
+    .Daftar-menu a {
+        color: aliceblue;
+        font-size: x-small;
+    }
+    /* Aside */
+    .aside {
+        width: 40%;
+    }
+    .Profile header {
+        font-size: large;
+    }
+    figure img {
+        width: 50%;
+    }
+    aside section {
+        font-size: 6px;
+    }
+    .halal img {
+        width: 80%;
+    }
+    /* footer */
+    /* footer {} */
+}
+
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 415px */
+
+@media screen and (max-width: 415px) {
+    * {
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .container {
+        padding: 0px;
+        overflow: auto;
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+        width: auto;
+        height: auto;
+    }
+    main {
+        padding-top: 20px;
+        margin: 0px;
+    }
+    .content {
+        margin: 5px;
+        border-radius: 15px;
+        padding: 2px;
+    }
+    /* Navbar */
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: column;
+        padding: 0px 10px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .navbar ul li a {
+        padding: 10px 10px;
+        font-size: small;
+        color: aliceblue;
+        font: bold;
+        margin: 0 5px;
+        border-radius: 10px;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .dropdown-content {
+        padding: 2px 7px;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-left: -10px;
+        border-radius: 10px;
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        z-index: 1;
+    }
+    /* Daftar Menu */
+    .kotak-menu {
+        flex-flow: column;
+        align-items: center;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu h2 {
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    /* Kotak Pesanan */
+    .kotak-pesanan {
+        flex-flow: column;
+        background-color: transparent;
+        margin-bottom: -15px;
+    }
+    .P1 {
+        font-size: small;
+    }
+    .P1 a {
+        padding-inline: 30px;
+    }
+    .Daftar-pesanan {
+        padding: 15px 0px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .Daftar-pesanan h3 {
+        font-size: xx-large;
+    }
+    .Daftar-pesanan img {
+        width: 60%;
+        margin-top: -1px;
+    }
+    /* Aside */
+    .aside {
+        width: 100%;
+    }
+    .Profile header {
+        font-size: xx-large;
+    }
+    figure img {
+        width: 70%;
+        height: auto;
+    }
+    aside section {
+        font-size: 130%;
+    }
+    /* footer */
+    footer {
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+    }
+}
+
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 541px */
+
+@media screen and (max-width: 281px) {
+    /* Navbar */
+    .navbar {
+        padding: 0px 5px;
+        padding-bottom: 10px;
+    }
+    .navbar ul li a {
+        padding: 5px 5px;
+        font-size: x-small;
+        border-radius: 5px;
+    }
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .Profile header h3 {
+        font-size: x-large;
+    }
+    figure img {
+        width: 55%;
+        height: auto;
+    }
+    .Profile section h2 {
+        font-size: large;
+        font-weight: bold;
+    }
+    aside section {
+        font-size: smaller;
+    }
+}
